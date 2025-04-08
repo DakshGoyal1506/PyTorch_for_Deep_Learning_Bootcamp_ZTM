@@ -32,6 +32,8 @@ def train_step(model: torch.nn.Module,
         (0.1112, 0.8743)
     """
 
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     model.train()
 
     train_loss, train_acc = 0, 0
@@ -80,6 +82,8 @@ def test_step(model: torch.nn.Module,
         
         (0.0223, 0.8985)
     """
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     model.eval()
 
@@ -141,6 +145,9 @@ def train(model: torch.nn.Module,
                     test_loss: [1.2641, 1.5706],
                     test_acc: [0.3400, 0.2973]} 
     """
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     # Create empty results dictionary
     results = {"train_loss": [],
         "train_acc": [],
