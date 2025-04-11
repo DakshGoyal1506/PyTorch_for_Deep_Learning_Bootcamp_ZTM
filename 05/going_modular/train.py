@@ -15,7 +15,7 @@ LEARNING_RATE = 0.001
 train_dir = "../data/pizza_steak_sushi/train"
 test_dir = "../data/pizza_steak_sushi/test"
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 data_transform = transforms.Compose([
     transforms.Resize(size=[64, 64]),
