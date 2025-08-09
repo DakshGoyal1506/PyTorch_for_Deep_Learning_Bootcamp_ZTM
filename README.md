@@ -7,7 +7,7 @@ This repository documents my comprehensive learning journey through the **Learn 
 ## 📋 Course Overview
 
 **Course Source**: [Learn PyTorch](https://www.learnpytorch.io/) by Daniel Bourke  
-**Duration**: 10 sections covering 25+ hours of content  
+**Duration**: 10 sections covering 90+ hours of content  
 **Focus**: Computer vision, deep learning fundamentals, and production deployment  
 **Framework**: PyTorch 2.0+ with modern best practices
 
@@ -267,7 +267,7 @@ The modular and systematic approach established in this bootcamp provides a stro
 
 ## 🔗 Live Demonstrations
 
-**Vision Transformer Food Classifier**: [Hugging Face Spaces Demo](https://huggingface.co/spaces/dakshgoyal/food-classifier)  
+**Vision Transformer Food Classifier**: [Hugging Face Spaces Demo](https://huggingface.co/spaces/DakshGoyal1506/foodvision_big_effnetb2)  
 *Real-time food recognition using custom ViT implementation*
 
 ---
